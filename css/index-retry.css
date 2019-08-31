@@ -1,0 +1,245 @@
+body{
+  background: #020012;
+  overflow-x: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  height: 50px;
+  background: white;
+  color: black;
+  overflow: hidden;
+}
+header ul{
+  width: 45%;
+  margin-left: 4%;
+  display: inline-block;
+  margin-top: 15px;
+  display: inline-block;
+}
+header ul li{
+  display: inline;
+  margin-right: 10%;
+  text-transform: capitalize;
+}
+header ul li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.underline{
+text-decoration: underline;
+}
+.header-right-side{
+  text-align: right;
+}
+.mobile-header{
+  display: none;
+}
+@media screen and (max-width:765px)
+and (min-width: 1px){
+  .header-right-side{
+    display: none;
+  }
+  header ul{
+    width: 100%;
+    margin-left: 4%;
+    display: inline-block;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 350px)
+and (min-width: 1px) {
+  .desktop-header{
+    display: none;
+  }
+  .mobile-header{
+    display: inline-block;
+  }
+}
+.box-img-container{
+  width: 100%;
+  border-top: 1px solid black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.coder-info{
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: verdana;
+  padding-left: 5px;
+}
+
+.ads-box{
+  background: #fff;
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  padding: 10px 0;
+  display: block;
+}
+.cardbox{
+  margin-top: 2%;
+  background: rgba(0,0,0,0.9);
+  background: #fff;
+  width: 47%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid transparent;
+  position: relative;
+  padding: 10px;
+}
+@media screen and (max-width:733px)
+and (min-width: 1px){
+  .coder-info{
+    padding-left: 0;
+  }
+  .cardbox{
+    width: 97%;
+    padding: 10px;
+    height: auto;
+    margin-top: 0px;
+  }
+}
+
+
+.cardbox img{
+  width: 100%;
+  height: 360px;
+}
+.house-city{
+  background-color: brown;
+  padding: 10px;
+  display: block;
+}
+.content-box{
+  width: 49%;
+  background: snow;
+  height: 100px;
+  text-align: left;
+  padding-left: 2px;
+  color: black;
+  font-size: 90%;
+  float: left;
+}
+@media screen and (max-width: 310px)
+and (min-width: 1px){
+  .content-box{
+    width: 100%;
+  }
+  .house-info-content{
+    width: 100%;
+    height: 60px!important;
+  }
+  .buy-btn-box{
+    margin-left: 0!important;
+  }
+}
+.house-info-content{
+  background: snow;
+  height: 100px;
+  text-align: left;
+  padding-left: 2px;
+  color: black;
+  font-size: 90%;
+}
+.house-info-content p{
+  border-bottom: 1px solid grey;
+  width: 100%;
+}
+.btn-anchor{
+  padding: 10px 0;
+  width: 35%;
+  background: blue;
+  color: snow;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+}
+.buy-btn-box{
+  position: relative;
+  text-align: center;
+  margin-left: 2px;
+}
+.buy-btn-box a{
+  width: 80%;
+  display: inline-block;
+  margin-top: 30px;
+}
+.rent-box{
+  height: auto;
+  background: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+}
+@media screen and(max-width: 400px) {
+
+}
+.section-name{
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 120%;
+  font-family: arial;
+  background: #000;
+  color: #fff;
+}
+.card-box-rent{
+  border: 1px solid snow;
+  width: 300px;
+  color: #fff;
+  background: rgba(0,0,0,0.8);
+  overflow: hidden;
+  display: inline-block;
+}
+.card-box-rent img{
+  width: 100%;
+  display: block;
+}
+.rent-box-two{
+  float: left;
+  width: 36%;
+  background: black;
+  margin-left: 5px;
+}
+.rent-content-box{
+  overflow: hidden;
+  margin-top: 25px;
+}
+.rent-box-two a{
+  margin-top: 19px;
+  width: 100%;
+}
+.rent-box-two p{
+  border-bottom: 1px solid grey;
+  padding: 2px;
+  text-align: center;
+}
+.location-box{
+  width: 100%;
+}
+
+.contact-section{
+  height: 350px;
+  width: 100%;
+  background: #020012;
+  text-align: center;
+}
+.contact-section img{
+  width: 50%;
+  height: 100%;
+}

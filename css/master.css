@@ -1,0 +1,152 @@
+body{
+  background: url("img/promotion.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.header-box{
+  background: #fff;
+  overflow: hidden;
+}
+header ul li{
+  list-style: none;
+  float: left;
+  background: yellow;
+  margin-right: 10%;
+}
+header nav{
+  border-bottom: 1px solid red;
+  overflow: hidden;
+  width: 95%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title-box{
+  text-align: center;
+  font-size: 130%;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  width: 100%;
+  position: sticky;
+  z-index: 10;
+  padding: 10px 0;
+}
+.home-sale-box{
+  height: 317px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: block;
+  padding: 12px 0;
+  background: #000;
+}
+.card-home{
+  height: 95%;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+#space-box{
+  width: 50px!important;
+}
+.card-home img{
+  height: 72%;
+  display: block;
+  width: 100%;
+}
+.status{
+  background: #0c5700;
+  color: snow;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  top: 5px;
+  left: 5px;
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 80%;
+}
+.price{
+  background: #00529e;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #fff;
+  font-family: verdana;
+  position: absolute;
+  top: 154px;
+}
+.home-description{
+  position: absolute;
+  bottom: 0;
+  border: 1px solid #969696;;
+  width: 99.4%;
+  color: #b3b3b3;
+  height: 27%;
+  position: relative;
+}
+.home-description p{
+  padding-left: 5px;
+}
+.buyhouse-btn{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.cool-btn{
+  padding: 5px 10px;
+  font-size: 80%;
+  border-radius: 5px;
+  border-color: transparent;
+  float: right;
+  margin-right: 5px;
+  margin-bottom: 7px;
+}
+
+.home-rent-box{
+  background: black;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-rent-box .card-home{
+  width: 30%;
+  margin: 30px 0;
+}
+
+.promotion-box{
+  background: 100%;
+  overflow: hidden;
+}
+/* WARNING: SHAPES  */
+.triangle-up {
+	width: 68%;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+  border-bottom-color: black;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 500px)
+and (min-width: 1px){
+  .home-rent-box{
+    width: 100%;
+  }
+  .home-rent-box .card-home{
+    width: auto;
+  }
+
+}
